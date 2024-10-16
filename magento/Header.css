@@ -1,0 +1,136 @@
+header {
+    display: flex;
+    flex-direction: column; 
+}
+
+.sign {
+    text-align: right;
+
+}
+
+.sign-search {
+    flex-direction: column; 
+}
+
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+header img {
+    margin-left: 100px;
+    width: 175px;
+    height: auto; 
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    padding:8px;
+    background-color: #eaeaeb; 
+}
+
+nav ul li {
+    margin: 0 15px; 
+}
+
+a{
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.search-button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.search-button:hover {
+    background-color: #0056b3;
+}
+
+.signin-button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px 8px 10px 0;
+
+}
+
+.signup-button {
+    padding: 10px 15px;
+    background-color: #d41928;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.logout-button {
+    padding: 10px 15px;
+    background-color: #d41928;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px 20px 10px 20px;
+}
+.signin-button:hover {
+    background-color: #0056b3;
+}
+.signup-button:hover {
+    background-color: #ad0f0f;
+}
+.logout-button:hover {
+    background-color: #ad0f0f;
+}
+.cart-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-right: 50px;
+}
+
+.cart-icon {
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+}
+
+.cart-count {   
+    position: absolute;
+    top: 65px;
+    right: 60px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 5px;
+    font-size: 12px;
+}
+
+
+
